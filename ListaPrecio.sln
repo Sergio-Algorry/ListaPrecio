@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaPrecio.FE", "ListaPrecio.FE\ListaPrecio.FE.csproj", "{C76CC7AA-1352-4120-9A22-5781430FF73F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaPrecio.BE", "ListaPrecio.BE\ListaPrecio.BE.csproj", "{B7F3FCDC-7B00-477A-8EBE-EDDD6F974598}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C76CC7AA-1352-4120-9A22-5781430FF73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C76CC7AA-1352-4120-9A22-5781430FF73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C76CC7AA-1352-4120-9A22-5781430FF73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C76CC7AA-1352-4120-9A22-5781430FF73F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F3FCDC-7B00-477A-8EBE-EDDD6F974598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F3FCDC-7B00-477A-8EBE-EDDD6F974598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F3FCDC-7B00-477A-8EBE-EDDD6F974598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F3FCDC-7B00-477A-8EBE-EDDD6F974598}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCC50BC3-AE2F-40FE-ABB0-D96C6EF44F39}
+	EndGlobalSection
+EndGlobal
