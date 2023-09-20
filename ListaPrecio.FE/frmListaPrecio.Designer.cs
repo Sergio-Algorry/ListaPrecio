@@ -36,6 +36,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btAgregar = new System.Windows.Forms.Button();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.btListar = new System.Windows.Forms.Button();
+            this.btActualizar = new System.Windows.Forms.Button();
+            this.btBuscar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -107,16 +110,51 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(12, 131);
+            this.lblResultado.Location = new System.Drawing.Point(22, 171);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(0, 26);
             this.lblResultado.TabIndex = 7;
+            // 
+            // btListar
+            // 
+            this.btListar.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btListar.Location = new System.Drawing.Point(127, 76);
+            this.btListar.Name = "btListar";
+            this.btListar.Size = new System.Drawing.Size(105, 38);
+            this.btListar.TabIndex = 8;
+            this.btListar.Text = "Listar";
+            this.btListar.UseVisualStyleBackColor = true;
+            this.btListar.Click += new System.EventHandler(this.btListar_Click);
+            // 
+            // btActualizar
+            // 
+            this.btActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btActualizar.Location = new System.Drawing.Point(17, 120);
+            this.btActualizar.Name = "btActualizar";
+            this.btActualizar.Size = new System.Drawing.Size(117, 38);
+            this.btActualizar.TabIndex = 9;
+            this.btActualizar.Text = "Actualizar";
+            this.btActualizar.UseVisualStyleBackColor = true;
+            // 
+            // btBuscar
+            // 
+            this.btBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btBuscar.Location = new System.Drawing.Point(238, 76);
+            this.btBuscar.Name = "btBuscar";
+            this.btBuscar.Size = new System.Drawing.Size(105, 38);
+            this.btBuscar.TabIndex = 10;
+            this.btBuscar.Text = "Buscar";
+            this.btBuscar.UseVisualStyleBackColor = true;
+            this.btBuscar.Click += new System.EventHandler(this.btBuscar_Click);
             // 
             // frmListaPrecio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(443, 543);
+            this.Controls.Add(this.btBuscar);
+            this.Controls.Add(this.btActualizar);
+            this.Controls.Add(this.btListar);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btAgregar);
             this.Controls.Add(this.txtPrecio);
@@ -142,6 +180,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btAgregar;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Button btListar;
+        private System.Windows.Forms.Button btActualizar;
+        private System.Windows.Forms.Button btBuscar;
     }
 }
 
